@@ -1,0 +1,93 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    background: gray;
+    background:rgba(159,0,80,1);
+    color: white;
+    font-size: 40px;
+    padding: 1%;
+    width: 100%;
+    position: fixed;
+}
+.bg{
+    width: 100%;
+}
+
+.room{
+    text-align: center;
+    border: black solid;
+    background: #d0d0d0;
+    width: 35%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.roomphoto{
+    width: 100%;
+}
+.info{
+    font-size: 28px;
+    padding: 3%;
+}
+.info:hover{
+    font-size: 32px;
+    padding: 4%;
+    background:rgba(159,0,80,0.4);
+    /* color: white; */
+}
+.type{
+    display: inline-block;
+}
+.price{
+    display: inline-block;
+    padding-left: 50%;
+}
+
+
+/* index2 */
+.roomtype{
+    margin-left: 2%;
+    margin-bottom: 5%;
+    font-size: 28px;
+    display: inline-block;
+}
+
+.roomtype li{
+    padding-top: 10%;
+}
+.roomtype li:hover{
+    padding-top: 12%;
+    color: rgba(159,0,80,1);
+}
+.roominfo{
+    float: right;
+    margin-right: 12%;
+    width: 60%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    font-size:36px;
+}
+.title{
+    font-size: 32px;
+    text-align: center;
+}
+.roominfophoto{
+    width: 10%;
+    margin-left: 80%;
+}
+.button{
+    border: black solid;
+    float: right;
+    font-size:36px; 
+}
+.detail li{
+    font-size: 26px;
+    color: gray;
+}
